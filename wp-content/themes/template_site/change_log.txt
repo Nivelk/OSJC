@@ -1,0 +1,63 @@
+2nd November 2011 (v.1.0.6)
+--------------------------------------------------------------------------
+Plugin for SEO was not working properly -- SOLVED
+--------------------------------------------------------------------------
+admin/functions/custom_functions.php
+
+
+4rd October 2011 (v.1.0.6)
+---------------------------------------------------------------------------
+Remove Auto Update option form admin side -- Solved
+--------------------------------------------------------------------------
+admin/auto_update_framework.php
+
+
+28th September, 2011 (V:1.0.5)
+---------------------------------------------------------------------
+when add plugins for gravity form, its not working properly -- SOLVED
+---------------------------------------------------------------------
+admin/theme_options/option_settings.php
+theme_options/css/option_tree_style.css
+
+
+26th July, 2011  (V : 1.0.4)
+--------------------------------------------------------------------------------------
+1. search is giving an error. - FIXED
+2. Framework Update not working - Fixed
+--------------------------------------------------------------------------------------
+Library/Tpl/search_content.php
+admin/auto_update_framework.php
+
+
+25th July,2011
+--------------------------------------------------------------------------------------
+BreadCrumb not working on Tag page. - FIXED.
+--------------------------------------------------------------------------------------
+admin/Breadcrumbs/yoast-breadcrumbs.php
+
+
+22nd June 2011 (v:1.0.3)
+----------------------------------------------------------------------------------------
+Slider and testimonial js was conflicting and Testimonial widget was not working -- SOLVED
+----------------------------------------------------------------------------------------
+header.php
+
+
+25th March 2011  (v:1.0.2)
+---------------------------------------------------------
+blog listing - reverse order post problem - solved
+-----------------------------------------------------------
+admin/functions/hooks.php
+admin/widgets/testimonials.php
+library/functions/custom_functions.php
+
+
+23th - March - 2011 (v:1.0.1)
+---------------------------------------------
+Gallery page template image resize removed
+---------------------------------------------
+library/tpl/tpl_gallery_page.php
+
+
+
+March 08, 2011 - Fresh release

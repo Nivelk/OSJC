@@ -1,0 +1,601 @@
+<?xml version="1.0"?>
+<wp_option_tree>
+  <row>
+    <id>1</id>
+    <item_id>general_settings</item_id>
+    <item_title>Configurações Gerais</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>1</item_sort>
+  </row>
+  <row>
+    <id>2</id>
+    <item_id>ptthemes_alt_stylesheet</item_id>
+    <item_title>Cores do tema</item_title>
+    <item_desc>Selecione uma cor padrão para o seu tema</item_desc>
+    <item_type>select</item_type>
+    <item_options>Padrao,Azul,Marrom,Verde,Vermelho</item_options>
+    <item_sort>2</item_sort>
+  </row>
+  <row>
+    <id>64</id>
+    <item_id>ptthemes_custom_theme_color</item_id>
+    <item_title>Cor customizada do tema</item_title>
+    <item_desc>Caso nenhuma das cores da opção acima lhe agrade, selecione a sua aqui. Será a cor usada para todo o site. (DEIXE EM BRANCO para voltar ao padrão)</item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>65</item_sort>
+  </row>
+  <row>
+    <id>65</id>
+    <item_id>ptthemes_custom_inside_text_color</item_id>
+    <item_title>Cor customizada para textos dentro de elementos onde irão receber a cor acima</item_title>
+    <item_desc>Em caso de elementos que contenham como cor de fundo a cor selecionada acima, os textos serão coloridos com esta cor. Altere caso a cor selecionada acima não combine com o branco.</item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>66</item_sort>
+  </row>
+  <row>
+    <id>3</id>
+    <item_id>ptthemes_favicon</item_id>
+    <item_title>Favicon</item_title>
+    <item_desc>Envie um favicon ou cole sua URL. Não possui um favicon? &amp;lt;a href=&amp;quot;http://www.favicon.cc/&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;Crie o seu aqui&amp;lt;/a&amp;gt;</item_desc>
+    <item_type>upload</item_type>
+    <item_options></item_options>
+    <item_sort>3</item_sort>
+  </row>
+  <row>
+    <id>4</id>
+    <item_id>ptthemes_logo_url</item_id>
+    <item_title>Logo personalizado</item_title>
+    <item_desc>Envie uma imagem de logo ou cole sua URL.</item_desc>
+    <item_type>upload</item_type>
+    <item_sort>4</item_sort>
+  </row>
+  <row>
+    <id>5</id>
+    <item_id>ptthemes_show_blog_title</item_id>
+    <item_title>Mostre o título do Blog / Site ao invés do logo</item_title>
+    <item_desc>Esta configuração vai substituir a selecão de logo acima. Você pode &amp;lt;a href=&amp;quot;options-general.php&amp;quot;&amp;gt;alterar o título do seu Blog/Site aqui&amp;lt;/a&amp;gt;</item_desc>
+    <item_type>radio</item_type>
+    <item_options>Sim,Não</item_options>
+    <item_sort>5</item_sort>
+  </row>
+  <row>
+    <id>6</id>
+    <item_id>ptthemes_feedburner_url</item_id>
+    <item_title>URL de feed de publicação</item_title>
+    <item_desc>Insira a URL do feed do Feedburner, ou então deixe em branco.</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>6</item_sort>
+  </row>
+  <row>
+    <id>7</id>
+    <item_id>ptthemes_tweet_button</item_id>
+    <item_title>Botão &amp;quot;Tweet&amp;quot;</item_title>
+    <item_desc>Mostrar botão &amp;quot;Tweet&amp;quot; nos posts do blog.</item_desc>
+    <item_type>radio</item_type>
+    <item_options>Sim,Não</item_options>
+    <item_sort>7</item_sort>
+  </row>
+  <row>
+    <id>8</id>
+    <item_id>ptthemes_facebook_button</item_id>
+    <item_title>Botão &amp;quot;Curtir&amp;quot; do Facebook</item_title>
+    <item_desc>Mostrar botão &amp;quot;Cutir&amp;quot; do Facebook nos posts do blog.</item_desc>
+    <item_type>radio</item_type>
+    <item_options>Sim,Não</item_options>
+    <item_sort>8</item_sort>
+  </row>
+  <row>
+    <id>9</id>
+    <item_id>ptthemes_date_format</item_id>
+    <item_title>Formato de data</item_title>
+    <item_desc>Formatos padrões: d/m/Y OR M j, Y
+Para mais informação nas Tags de Horário do Wordpress, &amp;lt;a href=&amp;quot;http://codex.wordpress.org/Formatting_Date_and_Time&amp;quot; target=&amp;quot;_blank&amp;quot; &amp;gt;clique aqui&amp;lt;/a&amp;gt;.</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>9</item_sort>
+  </row>
+  <row>
+    <id>10</id>
+    <item_id>pttheme_contact_email</item_id>
+    <item_title>Email do formulário de contato</item_title>
+    <item_desc>Este é o endereço de email que receberá os contatos de usuários no seu blog.</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>10</item_sort>
+  </row>
+  <row>
+    <id>11</id>
+    <item_id>ptthemes_breadcrumbs</item_id>
+    <item_title>Navegação por Breadcrumbs</item_title>
+    <item_desc>Mostrar navegação por Breadcrumbs. ex.: Início &amp;gt; Blog &amp;gt; Título do post - &amp;lt;a href=options-general.php?page=yoast-breadcrumbs.php&amp;gt;Altere as opções aqui&amp;lt;/a&amp;gt;.</item_desc>
+    <item_type>radio</item_type>
+    <item_options>Sim,Não</item_options>
+    <item_sort>11</item_sort>
+  </row>
+  <row>
+    <id>12</id>
+    <item_id>ptthemes_auto_install</item_id>
+    <item_title>Desativar auto-instalação</item_title>
+    <item_desc>Deseja desativar a auto-instalação? A auto-instalação é a opção que aparece durante a ativação do tema, logo acima, que permite o usuário remover ou adicionar conteúdo de posts de "exemplo" pois é necessário existirem posts para que o tema funcione corretamente.</item_desc>
+    <item_type>radio</item_type>
+    <item_options>Sim,Não</item_options>
+    <item_sort>12</item_sort>
+  </row>
+  <row>
+    <id>13</id>
+    <item_id>ptthemes_postcontent_full</item_id>
+    <item_title>Mostrar conteúdo dos posts</item_title>
+    <item_desc>Nas listagens de categorias, escolha se o conteúdo completo do post ou apenas o resumo será mostrado.</item_desc>
+    <item_type>radio</item_type>
+    <item_options>Conteúdo Completo,Resumo</item_options>
+    <item_sort>13</item_sort>
+  </row>
+  <row>
+    <id>14</id>
+    <item_id>ptthemes_content_excerpt_count</item_id>
+    <item_title>Quantidade de palavras do resumo do post</item_title>
+    <item_desc>Insira a quantidade de palavras permitidas pra o resumo dos posts.</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>14</item_sort>
+  </row>
+  <row>
+    <id>15</id>
+    <item_id>ptthemes_content_excerpt_readmore</item_id>
+    <item_title>Texto de link de "Leia Mais" do resumo do post</item_title>
+    <item_desc>Insira o texto de link de "Leia Mais" do resumo do post.</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>15</item_sort>
+  </row>
+  <row>
+    <id>16</id>
+    <item_id>ptthemes_notification_type</item_id>
+    <item_title>Forma de envio de email</item_title>
+    <item_desc>Selecione a forma de envio de email.</item_desc>
+    <item_type>radio</item_type>
+    <item_options>PHP Mail, WP SMTP Mail</item_options>
+    <item_sort>16</item_sort>
+  </row>
+  <row>
+    <id>17</id>
+    <item_id>ptthemes_timthumb</item_id>
+    <item_title>Desativar auto-redimensionamento de imagem (via scripts timthumb)</item_title>
+    <item_desc>Gostaria de desativar auto-redimensionamento de imagem (via scripts timthumb)?</item_desc>
+    <item_type>radio</item_type>
+    <item_options>Sim,Não</item_options>
+    <item_sort>17</item_sort>
+  </row>
+  <row>
+    <id>58</id>
+    <item_id>pttheme_cufon_options</item_id>
+    <item_title>Opções Cufon</item_title>
+    <item_desc>Aqui você pode ativar / desativar a funcionalidade de substituição de fontes via Cufon.</item_desc>
+    <item_type>radio</item_type>
+    <item_options>Ativar,Desativar</item_options>
+    <item_sort>18</item_sort>
+  </row>
+  <row>
+    <id>18</id>
+    <item_id>navigation_settings</item_id>
+    <item_title>Configurações de Navegação</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>19</item_sort>
+  </row>
+  <row>
+    <id>19</id>
+    <item_id>ptthemes_top_pages_nav_enable</item_id>
+    <item_title>Configurações de navegação do cabeçalho do topo</item_title>
+    <item_desc>Gostaria de ativar a navegação do cabeçalho do topo?</item_desc>
+    <item_type>radio</item_type>
+    <item_options>Ativar,Desativar</item_options>
+    <item_sort>20</item_sort>
+  </row>
+  <row>
+    <id>20</id>
+    <item_id>header_footer_scripts</item_id>
+    <item_title>Adicionar Scripts</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>21</item_sort>
+  </row>
+  <row>
+    <id>21</id>
+    <item_id>ptthemes_scripts_header</item_id>
+    <item_title>Scripts no cabeçalho</item_title>
+    <item_desc>Se você precisa adicionar scripts no seu cabeçalho (como por exemplo o código de rastreamento do &amp;lt;a href=&amp;quot;http://haveamint.com/&amp;quot;&amp;gt;Mint&amp;lt;/a&amp;gt; ou qualquer outro script que precisa ser colocado dentro da tag &amp;lt;head&amp;gt;), faça-o aqui.</item_desc>
+    <item_type>textarea</item_type>
+    <item_options>10</item_options>
+    <item_sort>22</item_sort>
+  </row>
+  <row>
+    <id>22</id>
+    <item_id>ptthemes_scripts_footer</item_id>
+    <item_title>Scripts do rodapé</item_title>
+    <item_desc>Se você precisa adicionar scripts no seu rodapé (como por exemplo o código de rastreamento do &amp;lt;a href=&amp;quot;http://www.google.com/analytics/&amp;quot;&amp;gt;Google Analytics&amp;lt;/a&amp;gt; ou qualquer outro script que precisa ser colocado logo antes de fechar a tag &amp;lt;body&amp;gt;), faça-o aqui.</item_desc>
+    <item_type>textarea</item_type>
+    <item_options>10</item_options>
+    <item_sort>23</item_sort>
+  </row>
+  <row>
+    <id>23</id>
+    <item_id>seo_options</item_id>
+    <item_title>Opções de SEO</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>24</item_sort>
+  </row>
+  <row>
+    <id>24</id>
+    <item_id>ptthemes_home_title_seo</item_id>
+    <item_title>Título da página principal</item_title>
+    <item_desc>Título da página principal para SEO.</item_desc>
+    <item_type>textarea</item_type>
+    <item_options>3</item_options>
+    <item_sort>25</item_sort>
+  </row>
+  <row>
+    <id>25</id>
+    <item_id>ptthemes_home_desc_seo</item_id>
+    <item_title>Descrição da página inicial</item_title>
+    <item_desc>Descrição da página inicial para SEO.</item_desc>
+    <item_type>textarea</item_type>
+    <item_options>10</item_options>
+    <item_sort>26</item_sort>
+  </row>
+  <row>
+    <id>26</id>
+    <item_id>ptthemes_home_keyword_seo</item_id>
+    <item_title>Palavras-chaves da página inicial</item_title>
+    <item_desc>Palavras-chaves da página inicial para SEO (separadas por vírgulas).</item_desc>
+    <item_type>textarea</item_type>
+    <item_options>10</item_options>
+    <item_sort>27</item_sort>
+  </row>
+  <row>
+    <id>27</id>
+    <item_id>ptthemes_category_noindex</item_id>
+    <item_title>Usar &amp;#039;noindex&amp;#039; para páginas de categorias</item_title>
+    <item_desc>Escolha a opção apropriada para incluir/excluir páginas de categorias de serem indexadas por mecanismos de busca.</item_desc>
+    <item_type>radio</item_type>
+    <item_options>Sim,Não</item_options>
+    <item_sort>28</item_sort>
+  </row>
+  <row>
+    <id>28</id>
+    <item_id>ptthemes_archives_noindex</item_id>
+    <item_title>Usar &amp;#039;noindex&amp;#039; para páginas de arquivos</item_title>
+    <item_desc>Escolha a opção apropriada para incluir/excluir páginas de arquivos de serem indexadas por mecanismos de busca.</item_desc>
+    <item_type>radio</item_type>
+    <item_options>Sim,Não</item_options>
+    <item_sort>29</item_sort>
+  </row>
+  <row>
+    <id>29</id>
+    <item_id>ptthemes_tag_archives_noindex</item_id>
+    <item_title>Usar &amp;#039;noindex&amp;#039; para páginas de tags</item_title>
+    <item_desc>Escolha a opção apropriada para incluir/excluir páginas de tags de serem indexadas por mecanismos de busca.</item_desc>
+    <item_type>radio</item_type>
+    <item_options>Sim,Não</item_options>
+    <item_sort>30</item_sort>
+  </row>
+  <row>
+    <id>30</id>
+    <item_id>pttheme_seo_hide_fields</item_id>
+    <item_title>Esconder campos personalizados de SEO nas páginas de posts?</item_title>
+    <item_desc>Escolha &amp;#039;sim&amp;#039; para desativar campos personalizados em posts e páginas.</item_desc>
+    <item_type>radio</item_type>
+    <item_options>Sim,Não</item_options>
+    <item_sort>31</item_sort>
+  </row>
+  <row>
+    <id>31</id>
+    <item_id>ptthemes_use_third_party_data</item_id>
+    <item_title>Usar plugin de terceiros para SEO</item_title>
+    <item_desc>Informações adicionadas em campos personalizados em posts e páginas serão usados onde forem aplicáveis.</item_desc>
+    <item_type>radio</item_type>
+    <item_options>Sim,Não</item_options>
+    <item_sort>32</item_sort>
+  </row>
+  <row>
+    <id>32</id>
+    <item_id>post_settings</item_id>
+    <item_title>Posts</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>33</item_sort>
+  </row>
+  <row>
+    <id>33</id>
+    <item_id>ptthemes_home_page</item_id>
+    <item_title>Página principal</item_title>
+    <item_desc>Insira o número de posts a aparecerem na página inicial.</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>34</item_sort>
+  </row>
+  <row>
+    <id>34</id>
+    <item_id>ptthemes_cat_page</item_id>
+    <item_title>Página de arquivos</item_title>
+    <item_desc>Insira o número de posts a aparecerem na página de arquivos.</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>35</item_sort>
+  </row>
+  <row>
+    <id>35</id>
+    <item_id>ptthemes_search_page</item_id>
+    <item_title>Página de busca</item_title>
+    <item_desc>Insira o número de posts a aparecerem na página de busca.</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>36</item_sort>
+  </row>
+  <row>
+    <id>36</id>
+    <item_id>ptthemes_listing_date</item_id>
+    <item_title>Listar datas de posts</item_title>
+    <item_desc>Mostrar a data dos posts em páginas de lista.</item_desc>
+    <item_type>select</item_type>
+    <item_options>Sim,Não</item_options>
+    <item_sort>37</item_sort>
+  </row>
+  <row>
+    <id>37</id>
+    <item_id>ptthemes_listing_tags</item_id>
+    <item_title>Listar tags de posts</item_title>
+    <item_desc>Mostrar as tags dos posts em páginas de lista.</item_desc>
+    <item_type>select</item_type>
+    <item_options>Sim,Não</item_options>
+    <item_sort>38</item_sort>
+  </row>
+  <row>
+    <id>38</id>
+    <item_id>ptthemes_listing_category</item_id>
+    <item_title>Listar categorias de posts</item_title>
+    <item_desc>Mostrar as categorias dos posts em páginas de lista.</item_desc>
+    <item_type>select</item_type>
+    <item_options>Sim,Não</item_options>
+    <item_sort>39</item_sort>
+  </row>
+  <row>
+    <id>39</id>
+    <item_id>ptthemes_listing_comment</item_id>
+    <item_title>Listar comentários de posts</item_title>
+    <item_desc>Mostrar os comentários dos posts em páginas de lista.</item_desc>
+    <item_type>select</item_type>
+    <item_options>Sim,Não</item_options>
+    <item_sort>40</item_sort>
+  </row>
+  <row>
+    <id>40</id>
+    <item_id>ptthemes_listing_author</item_id>
+    <item_title>Listar autores de posts</item_title>
+    <item_desc>Mostrar os autores dos posts em páginas de lista.</item_desc>
+    <item_type>select</item_type>
+    <item_options>Sim,Não</item_options>
+    <item_sort>41</item_sort>
+  </row>
+  <row>
+    <id>41</id>
+    <item_id>ptthemes_details_date</item_id>
+    <item_title>Data de posts em detalhes</item_title>
+    <item_desc>Mostrar datas de posts em páginas detalhadas.</item_desc>
+    <item_type>select</item_type>
+    <item_options>Sim,Não</item_options>
+    <item_sort>42</item_sort>
+  </row>
+  <row>
+    <id>42</id>
+    <item_id>ptthemes_details_tags</item_id>
+    <item_title>Tags de posts em detalhes</item_title>
+    <item_desc>Mostrar tags de posts em páginas detalhadas.</item_desc>
+    <item_type>select</item_type>
+    <item_options>Sim,Não</item_options>
+    <item_sort>43</item_sort>
+  </row>
+  <row>
+    <id>43</id>
+    <item_id>ptthemes_details_category</item_id>
+    <item_title>Categorias de posts em detalhes</item_title>
+    <item_desc>Mostrar categorias de posts em páginas detalhadas.</item_desc>
+    <item_type>select</item_type>
+    <item_options>Sim,Não</item_options>
+    <item_sort>44</item_sort>
+  </row>
+  <row>
+    <id>44</id>
+    <item_id>ptthemes_details_comment</item_id>
+    <item_title>Comentários de posts em detalhes</item_title>
+    <item_desc>Mostrar comentários de posts em páginas detalhadas.</item_desc>
+    <item_type>select</item_type>
+    <item_options>Sim,Não</item_options>
+    <item_sort>45</item_sort>
+  </row>
+  <row>
+    <id>45</id>
+    <item_id>ptthemes_details_author</item_id>
+    <item_title>Autores de posts em detalhes</item_title>
+    <item_desc>Mostrar autor de posts em páginas detalhadas.</item_desc>
+    <item_type>select</item_type>
+    <item_options>Sim,Não</item_options>
+    <item_sort>46</item_sort>
+  </row>
+  <row>
+    <id>46</id>
+    <item_id>ptthemes_pagination</item_id>
+    <item_title>Paginação</item_title>
+    <item_desc></item_desc>
+    <item_type>radio</item_type>
+    <item_options>Padrão + Suporte a WP Page-Navi, Posts via consulta AJAX</item_options>
+    <item_sort>47</item_sort>
+  </row>
+  <row>
+    <id>47</id>
+    <item_id>ptthemes_common_settings</item_id>
+    <item_title>Estilo e configurações de cor.</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>48</item_sort>
+  </row>
+  <row>
+    <id>48</id>
+    <item_id>ptthemes_fonts</item_id>
+    <item_title>Fontes</item_title>
+    <item_desc>Escolha as fontes do seu site.</item_desc>
+    <item_type>select</item_type>
+    <item_options>Verdana, Geneva, Arial, Arial Black, Trebuchet MS, Helvetica, sans-serif, Georgia, Times New Roman, Times, serif</item_options>
+    <item_sort>49</item_sort>
+  </row>
+  <row>
+    <id>49</id>
+    <item_id>ptthemes_body_background_color</item_id>
+    <item_title>Cor de fundo do corpo do site (body)</item_title>
+    <item_desc>Escolha a cor de fundo do corpo do seu site.</item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>50</item_sort>
+  </row>
+  <row>
+    <id>50</id>
+    <item_id>ptthemes_body_background_image</item_id>
+    <item_title>Imagem de fundo do corpo do site (body)</item_title>
+    <item_desc>Envie a imagem de fundo do corpo do seu site aqui.</item_desc>
+    <item_type>upload</item_type>
+    <item_options></item_options>
+    <item_sort>51</item_sort>
+  </row>
+  <row>
+    <id>51</id>
+    <item_id>ptthemes_body_bg_postions</item_id>
+    <item_title>Posicionamento de imagem de fundo do corpo da página (body)</item_title>
+    <item_desc>Selecione a posição da imagem de fundo:&amp;lt;br /&amp;gt;
+(1) no-repeat = Não repetir a imagem de fundo; &amp;lt;br /&amp;gt;
+(2) repeat = Repetir a imagem horizontalmente e verticalmente; &amp;lt;br /&amp;gt;
+(3) repeat-x = Repetir a imagem APENAS horizontalmente; &amp;lt;br /&amp;gt;
+(4) repeat-y = Repetir a imagem APENAS verticalmente; &amp;lt;br /&amp;gt;
+(5) repeat-y center top = Repetir a imagem APENAS verticalmente COMEÇANDO PELO CENTRO DO TOPO; &amp;lt;br /&amp;gt;
+(6) repeat-y left top = Repetir a imagem APENAS verticalmente COMEÇANDO PELO CANTO SUPERIOR-ESQUERDO.</item_desc>
+    <item_type>select</item_type>
+    <item_options>no-repeat,repeat,repeat-x,repeat-y,repeat-y center top,repeat-y left top</item_options>
+    <item_sort>52</item_sort>
+  </row>
+  <row>
+    <id>52</id>
+    <item_id>ptthemes_link_color_normal</item_id>
+    <item_title>Cor do link normal</item_title>
+    <item_desc>Selecione a cor dos links em seu estado normal.</item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>53</item_sort>
+  </row>
+  <row>
+    <id>53</id>
+    <item_id>ptthemes_link_color_hover</item_id>
+    <item_title>Cor do link com mouse por cima</item_title>
+    <item_desc>Selecione a cor dos links com o mouse por cima.</item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>54</item_sort>
+  </row>
+  <row>
+    <id>54</id>
+    <item_id>ptthemes_main_title_color</item_id>
+    <item_title>Cor do título principal</item_title>
+    <item_desc>Selecione a cor do título principal.</item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>55</item_sort>
+  </row>
+  <row>
+    <id>55</id>
+    <item_id>ptthemes_customcss</item_id>
+    <item_title>Usar folha de estilo personalizada</item_title>
+    <item_desc>Ative esta opção para habilitar a folha de estilo custom.css. &amp;lt;a href=&amp;quot;theme-editor.php?file=/themes/TFramework2/custom.css&amp;amp;theme=Temlatic+Framework%2FTFramework2&amp;amp;dir=style&amp;quot; /&amp;gt;Edite o arquivo custom.css aqui&amp;lt;/a&amp;gt;.</item_desc>
+    <item_type>radio</item_type>
+    <item_options>Ativar,Desativar</item_options>
+    <item_sort>56</item_sort>
+  </row>
+  <row>
+    <id>56</id>
+    <item_id>ptthemes_page_layouts</item_id>
+    <item_title>Layout da página</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>57</item_sort>
+  </row>
+  <row>
+    <id>57</id>
+    <item_id>ptthemes_page_layout</item_id>
+    <item_title>Layout da página</item_title>
+    <item_desc>Selecione o layout da página.</item_desc>
+    <item_type>select</item_type>
+    <item_options>Página Completa, Página com 2 colunas - Sidebar à direita, Página com 2 colunas - Sidebar à esquerda, Página com 3 colunas - Posicionada, Página com 3 colunas - Sidebar à direita, Página com 3 colunas - Sidebar à esquerda</item_options>
+    <item_sort>58</item_sort>
+  </row>
+  <row>
+    <id>58</id>
+    <item_id>slider_settings</item_id>
+    <item_title>Configurações do Destaque</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>59</item_sort>
+  </row>
+  <row>
+    <id>59</id>
+    <item_id>ptthemes_bg_choose</item_id>
+    <item_title>Imagem de fundo do destaque pré-definido</item_title>
+    <item_desc>Escolha uma opção para imagem de fundo pré-definida para seu destaque da página principal.</item_desc>
+    <item_type>radio</item_type>
+    <item_options>Remover imagem de fundo padrão do tema,Manter imagem de fundo padrão do tema,sliderbgthumb:floricultura.jpg,sliderbgthumb:igreja.jpg,sliderbgthumb:medico.jpg,sliderbgthumb:restaurante.jpg</item_options>
+    <item_sort>60</item_sort>
+  </row>
+  <row>
+    <id>60</id>
+    <item_id>ptthemes_bg_color</item_id>
+    <item_title>Cor de fundo personalizada do destaque</item_title>
+    <item_desc>Escolha uma cor para substituir a cor de fundo padrão do destaque da página principal. (&amp;lt;strong&amp;gt;DEIXE EM BRANCO&amp;lt;/strong&amp;gt; para a cor padrão do tema).</item_desc>
+    <item_type>colorpicker</item_type>
+    <item_sort>61</item_sort>
+  </row>
+  <row>
+    <id>61</id>
+    <item_id>ptthemes_bg_url</item_id>
+    <item_title>Imagem de fundo personalizada do destaque</item_title>
+    <item_desc>Envie uma imagem de fundo (ou cole um endereço URL) para o destaque da página principal. (&amp;lt;strong&amp;gt;DEIXE EM BRANCO&amp;lt;/strong&amp;gt; para nenhuma imagem personalizada).</item_desc>
+    <item_type>upload</item_type>
+    <item_sort>62</item_sort>
+  </row>
+  <row>
+    <id>62</id>
+    <item_id>ptthemes_bg_repeat</item_id>
+    <item_title>Repetição da imagem de fundo do destaque (Ignore caso não use um fundo PERSONALIZADO)</item_title>
+    <item_desc>Defina como você quer que a imagem de fundo do destaque da página principal se repita.</item_desc>
+    <item_type>radio</item_type>
+    <item_options>Horizontalmente,Verticalmente,Todas as direções,Não repetir</item_options>
+    <item_sort>63</item_sort>
+  </row>
+  <row>
+    <id>63</id>
+    <item_id>ptthemes_bg_position</item_id>
+    <item_title>Posicionamento da imagem de fundo do destaque (Ignore caso não use um fundo PERSONALIZADO)</item_title>
+    <item_desc>Defina como você quer que a imagem de fundo do destaque da página principal se posicione.</item_desc>
+    <item_type>radio</item_type>
+    <item_options>Canto superior esquerdo,Centralizado no topo,Canto superior direito,Centralizado à esquerda,Centralizado absoluto,Centralizado à direita,Canto inferior esquerdo,Centralizado em baixo,Canto inferior direito</item_options>
+    <item_sort>64</item_sort>
+  </row>
+</wp_option_tree>

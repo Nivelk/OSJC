@@ -1,0 +1,1242 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Private Lawyer v1.0.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-07-14 12:50-0300\n"
+"Last-Translator: Antonio Felix <felix.antonio89@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Textdomain-Support: yes\n"
+"Language: en_US\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ templatic
+#: 404.php:5
+msgid "404 Error!"
+msgstr "Erro 404!"
+
+# @ templatic
+#: admin/admin_menu.php:14
+msgid "Theme Settings"
+msgstr "Configurações do Site"
+
+# @ templatic
+#: admin/auto_update_framework.php:7 admin/auto_update_framework.php:50
+#: admin/auto_update_framework.php:63
+msgid "Update Framework"
+msgstr "Atualizar Framework"
+
+# @ templatic
+#: admin/auto_update_framework.php:56
+#, php-format
+msgid ""
+"<h3>A new version of Templatic Framework is available.</h3>\n"
+"                <p>This updater will collect a file from the templatic.com "
+"server. It will download and extract the files to your current theme&prime;s "
+"functions folder. </p>\n"
+"                <p>We recommend backing up your theme files before updating. "
+"Only upgrade the Templatic Framework if necessary.</p>\n"
+"                <p>If you are facing any problem in auto updating the "
+"framework, then please download the latest version of the theme from members "
+"area and then just overwrite the \"admin\" folder to the theme root.\n"
+"\t\t\t\t<p>&rArr; <strong>Your version:</strong> %s</p>\n"
+"\t\t\t\t\n"
+"\t\t\t\t<p>&rArr; <strong>Current Version:</strong> %s</p>"
+msgstr ""
+"<h3>Uma nova versão do framework Templatic está disponível.</h3>\n"
+"                <p>Este atualizador vai coletar um arquivo do servidor "
+"templatic.com. Vai baixar e extrair os arquivos para a pasta functions do "
+"seu tema atual. </p>\n"
+"                <p>Nós recomendamos fazer um back-up dos arquivos do seu "
+"tema antes de atualizar. Apenas faça o upgrade do framework templatic se "
+"necessário.</p>\n"
+"                <p>Se você está tendo problemas para auto-atualizar o "
+"framework, então por favor baixe a versão mais recente do tema através da "
+"área de membros e então apenas sobreescreva a pasta \"admin\" da pasta raiz "
+"do tema.\n"
+"\t\t\t\t<p>&rArr; <strong>Sua versão:</strong> %s</p>\n"
+"\t\t\t\t\n"
+"\t\t\t\t<p>&rArr; <strong>Versão mais atual:</strong> %s</p>"
+
+# @ templatic
+#: admin/auto_update_framework.php:65
+msgid "Updating Framework, It will take few moments. Please wait...."
+msgstr ""
+"Atualizando framework. Vai demorar alguns minutos. Por favor aguarde..."
+
+# @ templatic
+#: admin/auto_update_framework.php:68
+#, php-format
+msgid ""
+" <h3>You already have the latest version of Templatic Framework</h3>\n"
+"                <p>&rArr; <strong>Your version:</strong> %s "
+msgstr ""
+" <h3>Você já possui a versão mais recente do framework Templatic</h3>\n"
+"                <p>&rArr; <strong>Sua versão:</strong> %s "
+
+# @ templatic
+#: admin/breadcrumbs/yoast-breadcrumbs.php:61
+msgid "Settings"
+msgstr "Configurações"
+
+# @ templatic
+#: admin/breadcrumbs/yoast-breadcrumbs.php:69
+msgid "You cannot edit the Yoast Breadcrumbs options."
+msgstr "Você não pode editar as opções do Yoast Breadcrumbs"
+
+# @ templatic
+#: admin/breadcrumbs/yoast-posts.php:23
+msgid "Yoast - Tweaking Websites"
+msgstr "Yoast - Acertando websites"
+
+# @ templatic
+#: admin/functions/custom_functions.php:275
+#, php-format
+msgid "<p class=\"comment-author\"><span>%s</span></p>"
+msgstr "<p class=\"comment-author\"><span>%s</span></p>"
+
+# @ templatic
+#: admin/functions/custom_functions.php:276
+#, php-format
+msgid "<p class=\"comment-date\">%s</p>"
+msgstr "<p class=\"comment-date\">%s</p>"
+
+# @ templatic
+#: admin/functions/custom_functions.php:284
+msgid "Your comment is awaiting moderation."
+msgstr "Seu comentário está aguardando moderação."
+
+# @ templatic
+#: admin/functions/custom_functions.php:390
+msgid "read more"
+msgstr "leia mais"
+
+# @ templatic
+#: admin/functions/custom_functions.php:498
+msgid "Search Result "
+msgstr "Resultado da busca"
+
+#: admin/functions/custom_functions.php:548
+#: admin/functions/custom_functions.php:586
+msgid "Home"
+msgstr "Página inicial"
+
+#: admin/functions/custom_functions.php:644
+msgid "Tweet"
+msgstr "Tweet"
+
+# @ templatic
+#: admin/functions/custom_functions.php:785
+msgid "Related Article"
+msgstr "Artigo relacionado"
+
+# @ templatic
+#: admin/seo_settings.php:26 admin/seo_settings.php:27
+msgid "SEO Settings"
+msgstr "Configurações de SEO"
+
+# @ templatic
+#: admin/seo_settings.php:34
+msgid "Page Title"
+msgstr "Título da página"
+
+# @ templatic
+#: admin/seo_settings.php:37
+msgid "Page Description"
+msgstr "Descrição da página"
+
+# @ templatic
+#: admin/seo_settings.php:40
+msgid "Keywords <br />(comma separated)"
+msgstr "Palavras-chave <br />(separadas por vírgula)"
+
+# @ templatic
+#: admin/seo_settings.php:43
+msgid "Update"
+msgstr "Atualizar"
+
+# @ templatic
+#: admin/theme_options/option_settings.php:52
+msgid "Design Settings"
+msgstr "Configurações de design"
+
+#: admin/theme_options/options.php:9
+msgid "Theme Guide"
+msgstr "Guia do tema"
+
+#: admin/theme_options/options.php:11
+msgid "Support Forum"
+msgstr "Fórum de suporte"
+
+# @ templatic
+#: admin/theme_options/options.php:19 admin/theme_options/options.php:72
+msgid "Save All Changes"
+msgstr "Salvar todas as alterações"
+
+# @ templatic
+#: admin/theme_options/options.php:71
+msgid "Reset Options"
+msgstr "Resetar configurações"
+
+# @ templatic
+#: admin/widgets/ads.php:35 admin/widgets/flickr.php:51
+#: admin/widgets/google_map.php:114 admin/widgets/my_bio.php:57
+#: admin/widgets/popularposts.php:57 admin/widgets/twitter.php:54
+msgid "Title"
+msgstr "Título"
+
+# @ templatic
+#: admin/widgets/ads.php:36
+msgid ""
+"Advertisement (ex.&lt;a href=\"#\"&gt;&lt;img src=\"http://templatic.com/"
+"banner.png\" /&gt;&lt;/a&gt; and google ads code here )"
+msgstr ""
+"Propaganda (ex.&lt;a href=\"#\"&gt;&lt;img src=\"http://templatic.com/banner."
+"png\" /&gt;&lt;/a&gt; e códigos do google ads aqui )"
+
+# @ templatic
+#: admin/widgets/anything_listing_slider/anything_listing_slider.php:120
+#: admin/widgets/latest_posts.php:79
+#: admin/widgets/pika_choose_slider/pika_choose_slider.php:81
+#: admin/widgets/testimonials.php:142
+#: library/functions/custom_functions.php:817
+#: library/functions/custom_functions.php:880
+msgid "Title:"
+msgstr "Título:"
+
+# @ templatic
+#: admin/widgets/anything_listing_slider/anything_listing_slider.php:125
+msgid "Category ID (i.e:1,2,3) :"
+msgstr "ID de Categoria (ex.:1,2,3) :"
+
+# @ templatic
+#: admin/widgets/anything_listing_slider/anything_listing_slider.php:130
+msgid "Post Per Slide :"
+msgstr "Post por Destaque:"
+
+# @ templatic
+#: admin/widgets/anything_listing_slider/anything_listing_slider.php:135
+msgid "Slider Number of Post display (i.e.12,8,4) :"
+msgstr "Número de posts a serem mostrados no destaque (ex.:12,8,4) :"
+
+# @ templatic
+#: admin/widgets/anything_listing_slider/anything_listing_slider.php:140
+msgid "Latest menu slider height <br /> (i.e.300) :"
+msgstr "Altura máxima do menu do destaque <br /> (ex.:300) :"
+
+# @ templatic
+#: admin/widgets/anything_listing_slider/anything_listing_slider.php:145
+msgid "Auto Play:"
+msgstr "Auto Exibição:"
+
+# @ templatic
+#: admin/widgets/anything_listing_slider/anything_listing_slider.php:147
+msgid "Yes"
+msgstr "Sim"
+
+# @ templatic
+#: admin/widgets/anything_listing_slider/anything_listing_slider.php:148
+msgid "No"
+msgstr "Não"
+
+# @ templatic
+#: admin/widgets/anything_listing_slider/anything_listing_slider.php:153
+msgid "Sliding Speed:"
+msgstr "Velocidade de transição:"
+
+# @ templatic
+#: admin/widgets/anything_listing_slider/anything_listing_slider.php:183
+msgid "Image Not Available"
+msgstr "Imagem não disponível"
+
+# @ templatic
+#: admin/widgets/anything_slider/anything_slider.php:105
+#: admin/widgets/latest_posts.php:82
+#: admin/widgets/pika_choose_slider/pika_choose_slider.php:91
+msgid "Number of posts:"
+msgstr "Número de posts:"
+
+# @ templatic
+#: admin/widgets/anything_slider/anything_slider.php:110
+#: admin/widgets/featured_video.php:71 admin/widgets/latest_posts.php:87
+#: admin/widgets/pika_choose_slider/pika_choose_slider.php:86
+msgid "Categories (<code>IDs</code> separated by commas):"
+msgstr "Categorias (<code>IDs</code> separados por vírgulas):"
+
+# @ templatic
+#: admin/widgets/anything_slider/anything_slider.php:115
+msgid "Slider delay time :"
+msgstr "Tempo de espera entre um destaque :"
+
+# @ templatic
+#: admin/widgets/anything_slider/anything_slider.php:120
+msgid "Slider animation time :"
+msgstr "Tempo de animação do destaque :"
+
+# @ templatic
+#: admin/widgets/anything_slider/anything_slider.php:125
+msgid "Slider Banner Height (i.e.400):"
+msgstr "Altura do banner do destaque (ex.:400):"
+
+# @ templatic
+#: admin/widgets/anything_slider/anything_slider.php:152
+#: library/functions/custom_filters.php:346
+msgid "Read More"
+msgstr "Leia Mais"
+
+# @ templatic
+#: admin/widgets/contact/contact.php:67 library/tpl/tpl_contact_page.php:58
+msgid "Thank you, your Information send successfully."
+msgstr "Obrigado, suas informações foram enviadas com sucesso."
+
+# @ templatic
+#: admin/widgets/contact/contact.php:72
+msgid "Please fill all the fields before submit."
+msgstr "Por favor preencha todos os campos antes de enviar."
+
+# @ templatic
+#: admin/widgets/contact/contact.php:81 library/tpl/tpl_contact_page.php:67
+msgid "Name"
+msgstr "Nome"
+
+# @ templatic
+#: admin/widgets/contact/contact.php:86 admin/widgets/login.php:385
+#: admin/widgets/login.php:424 library/tpl/tpl_contact_page.php:73
+msgid "Email"
+msgstr "Email"
+
+# @ templatic
+#: admin/widgets/contact/contact.php:91 library/tpl/tpl_contact_page.php:79
+msgid "Subject"
+msgstr "Assunto"
+
+# @ templatic
+#: admin/widgets/contact/contact.php:96 library/tpl/tpl_contact_page.php:85
+msgid "Message"
+msgstr "Mensagem"
+
+# @ templatic
+#: admin/widgets/contact/contact.php:100
+msgid "Send"
+msgstr "Enviar"
+
+# @ templatic
+#: admin/widgets/contact/contact.php:120 admin/widgets/login.php:449
+msgid "Widget Title"
+msgstr "Título do Widget"
+
+# @ templatic
+#: admin/widgets/featured_video.php:66
+msgid "Title :"
+msgstr "Título :"
+
+# @ templatic
+#: admin/widgets/featured_video.php:76
+msgid "Number of posts"
+msgstr "Número de posts"
+
+# @ templatic
+#: admin/widgets/featured_video.php:81
+msgid "Videos category listing page/ View more full url"
+msgstr "Página de listagem de categorias de vídeos/ Ver url completa"
+
+# @ templatic
+#: admin/widgets/flickr.php:43
+msgid "Flickr"
+msgstr "Flickr"
+
+# @ templatic
+#: admin/widgets/flickr.php:51
+msgid "eg. : Flickr"
+msgstr "ex. : Flickr"
+
+# @ templatic
+#: admin/widgets/flickr.php:56
+msgid "Flickr ID (<a href=\"http://www.idgettr.com\">idGettr</a>)"
+msgstr "ID Flickr (<a href=\"http://www.idgettr.com\">idGettr</a>)"
+
+# @ templatic
+#: admin/widgets/flickr.php:61
+msgid "Number of photos"
+msgstr "Número de fotos"
+
+# @ templatic
+#: admin/widgets/flickr.php:66
+msgid "Photo Width"
+msgstr "Largura da foto"
+
+# @ templatic
+#: admin/widgets/flickr.php:71
+msgid "Photo Height"
+msgstr "Altura da foto"
+
+# @ templatic
+#: admin/widgets/google_map.php:79
+msgid "View Large Map"
+msgstr "Ver mapa completo"
+
+# @ templatic
+#: admin/widgets/google_map.php:83
+msgid "Get Direction on Map &raquo;"
+msgstr "Obtenha direções no mapa &raquo;"
+
+# @ templatic
+#: admin/widgets/google_map.php:116
+msgid ""
+"Address <small>(eg: 230 Vine Street And locations throughout Old City, "
+"Philadelphia, PA 19106)</small>"
+msgstr ""
+"Endereço <small>(ex.: Av. Pastor Martin Luther King Jr. 600, Rio de Janeiro)"
+"</small>"
+
+# @ templatic
+#: admin/widgets/google_map.php:119
+msgid "Address Latitude <small>(eg: 39.955823048131286)</small>"
+msgstr "Latitude do endereço <small>(ex.: 39.955823048131286)</small>"
+
+# @ templatic
+#: admin/widgets/google_map.php:121
+msgid "Address Longitude <small>(eg: -75.14408111572266)</small>"
+msgstr "Longitude do endereço <small>(ex.: -75.14408111572266)</small>"
+
+# @ templatic
+#: admin/widgets/google_map.php:124
+msgid "Map Width in pixcels <small>(eg: 200)</small>"
+msgstr "Largura do mapa em pixels <small>(ex.: 200)</small>"
+
+# @ templatic
+#: admin/widgets/google_map.php:127
+msgid "Map Height in pixcels <small>(eg: 200)</small>"
+msgstr "Altura do mapa em pixels <small>(ex.: 200)</small>"
+
+# @ templatic
+#: admin/widgets/google_map.php:131
+msgid "Map Zooming"
+msgstr "Zoom no mapa"
+
+# @ templatic
+#: admin/widgets/google_map.php:145
+msgid "Select Map Type"
+msgstr "Selecione o tipo de mapa"
+
+# @ templatic
+#: admin/widgets/google_map.php:147
+msgid "Road Map"
+msgstr "Visão das rodovias"
+
+# @ templatic
+#: admin/widgets/google_map.php:148
+msgid "Satellite Map"
+msgstr "Visão de satélite"
+
+# @ templatic
+#: admin/widgets/google_map.php:149
+msgid "Terrain Map"
+msgstr "Visão do terreno"
+
+# @ templatic
+#: admin/widgets/latest_posts.php:53
+#: library/functions/custom_functions.php:376
+#: library/functions/custom_functions.php:400
+#: library/tpl/single_content.php:26 loop.php:27
+msgid "No Comments"
+msgstr "Sem comentários"
+
+# @ templatic
+#: admin/widgets/latest_posts.php:53
+#: library/functions/custom_functions.php:400
+#: library/tpl/single_content.php:26 loop.php:27
+msgid "1 Comment"
+msgstr "1 comentário"
+
+# @ templatic
+#: admin/widgets/latest_posts.php:53
+#: library/functions/custom_functions.php:400
+#: library/tpl/single_content.php:26 loop.php:27
+msgid "% Comments"
+msgstr "% comentários"
+
+# @ templatic
+#: admin/widgets/latest_posts.php:53
+#: library/functions/custom_functions.php:400
+#: library/tpl/single_content.php:26 loop.php:27
+msgid "Comments Closed"
+msgstr "Comentários desativados"
+
+# @ templatic
+#: admin/widgets/latest_posts.php:55
+msgid "more..."
+msgstr "mais..."
+
+# @ templatic
+#: admin/widgets/login.php:11
+msgid "<strong>ERROR</strong>: Please enter a username."
+msgstr "<strong>ERRO</strong>: Por favor insira um nome de usuário."
+
+# @ templatic
+#: admin/widgets/login.php:13
+msgid ""
+"<strong>ERROR</strong>: This username is invalid because it uses illegal "
+"characters. Please enter a valid username."
+msgstr ""
+"<strong>ERRO</strong>: Este nome de usuário é inválido porque possui "
+"caracteres não permitidos. Por favor insira um nome de usuário válido."
+
+# @ templatic
+#: admin/widgets/login.php:16
+msgid ""
+"<strong>ERROR</strong>: This username is already registered, please choose "
+"another one."
+msgstr ""
+"<strong>ERRO</strong>: Este nome de usuário já foi registrado, por favor "
+"escolha outro."
+
+# @ templatic
+#: admin/widgets/login.php:21
+msgid "<strong>ERROR</strong>: Please type your e-mail address."
+msgstr "<strong>ERRO</strong>: Por favor digite seu endereço de e-mail."
+
+# @ templatic
+#: admin/widgets/login.php:23
+msgid "<strong>ERROR</strong>: The email address isn&#8217;t correct."
+msgstr "<strong>ERRO</strong>: O endereço de email não está correto."
+
+# @ templatic
+#: admin/widgets/login.php:26
+msgid ""
+"<strong>ERROR</strong>: This email is already registered, please choose "
+"another one."
+msgstr ""
+"<strong>ERRO</strong>: Este endereço de email já está registrado, por favor "
+"escolha outro."
+
+# @ templatic
+#: admin/widgets/login.php:39
+#, php-format
+msgid ""
+"<strong>ERROR</strong>: Couldn&#8217;t register you... please contact the <a "
+"href=\"mailto:%s\">webmaster</a> !"
+msgstr ""
+"<strong>ERRO</strong>: Não foi possível registrá-lo... por favor entre em "
+"contato com o <a href=\"mailto:%s\">webmaster</a>!"
+
+# @ templatic
+#: admin/widgets/login.php:52
+msgid ""
+"[SUBJECT-STR]Registration Email[SUBJECT-END]<p>Dear [#user_name#],</p>\n"
+"\t\t\t<p>Your login information:</p>\n"
+"\t\t\t<p>Username: [#user_login#]</p>\n"
+"\t\t\t<p>Password: [#user_password#]</p>\n"
+"\t\t\t<p>You can login from [#site_login_url#] or the URL is : "
+"[#site_login_url_link#].</p>\n"
+"\t\t\t<p>We hope you enjoy. Thanks!</p>\n"
+"\t\t\t<p>[#site_name#]</p>"
+msgstr ""
+"[SUBJECT-STR]Email de registro[SUBJECT-END]<p>Prezado(a) [#user_name#],</p>\n"
+"\t\t\t<p>Seus dados de login:</p>\n"
+"\t\t\t<p>Nome de usuário: [#user_login#]</p>\n"
+"\t\t\t<p>Senha: [#user_password#]</p>\n"
+"\t\t\t<p>Você pode efetuar o login em [#site_login_url#] ou copiando este "
+"endereço : [#site_login_url_link#].</p>\n"
+"\t\t\t<p>Esperamos que você goste. Obrigado!</p>\n"
+"\t\t\t<p>[#site_name#]</p>"
+
+# @ templatic
+#: admin/widgets/login.php:64
+msgid "Registration Email"
+msgstr "Email de registro"
+
+# @ templatic
+#: admin/widgets/login.php:69
+#, php-format
+msgid "<a href=\"%s/?ptype=login\">Click Login</a>"
+msgstr "<a href=\"%s/?ptype=login\">Clique para efetuar o login</a>"
+
+# @ templatic
+#: admin/widgets/login.php:85
+msgid "<strong>ERROR</strong>: Enter a username or e-mail address."
+msgstr ""
+"<strong>ERRO</strong>: Insira um nome de usuário ou um endereço de e-mail."
+
+# @ templatic
+#: admin/widgets/login.php:90
+msgid ""
+"<strong>ERROR</strong>: There is no user registered with that email address."
+msgstr ""
+"<strong>ERRO</strong>: Não há nenhum usuário registrado com esse endereço de "
+"email."
+
+# @ templatic
+#: admin/widgets/login.php:102
+msgid "<strong>ERROR</strong>: Invalid username or e-mail."
+msgstr "<strong>ERRO</strong>: Nome de usuário ou e-mail inválido."
+
+# @ templatic
+#: admin/widgets/login.php:119
+msgid "Invalid key"
+msgstr "Chave inválida"
+
+#: admin/widgets/login.php:128
+#, php-format
+msgid "Username: %s"
+msgstr "Nome de usuário: %s"
+
+#: admin/widgets/login.php:129
+#, php-format
+msgid "Password: %s"
+msgstr "Senha: %s"
+
+# @ templatic
+#: admin/widgets/login.php:136
+#, php-format
+msgid "[%s] Your new password"
+msgstr "[%s] Sua nova senha"
+
+# @ templatic
+#: admin/widgets/login.php:192
+msgid ""
+"<strong>ERROR</strong>: Cookies are blocked or not supported by your "
+"browser. You must <a href='http://www.google.com/cookies.html'>enable "
+"cookies</a> to use WordPress."
+msgstr ""
+"<strong>ERRO</strong>: O uso de cookies está bloqueado ou não são suportados "
+"pelo seu navegador. Você precisa <a href='http://www.google.com/cookies."
+"html'>ativar os cookies</a> para usar o WordPress."
+
+# @ templatic
+#: admin/widgets/login.php:206
+msgid "User registration is currently not allowed."
+msgstr "Registro de novos usuários não está permitido no momento."
+
+# @ templatic
+#: admin/widgets/login.php:217
+msgid "Registration complete. Please check your e-mail."
+msgstr "Registro concluído. Por favor verifique seu e-mail."
+
+# @ templatic
+#: admin/widgets/login.php:228
+msgid "Check your e-mail for the new password."
+msgstr "Verifique seu e-mail para obter sua nova senha."
+
+# @ templatic
+#: admin/widgets/login.php:276
+msgid "My Account"
+msgstr "Minha conta"
+
+# @ templatic
+#: admin/widgets/login.php:280
+msgid "Dashboard"
+msgstr "Painel principal"
+
+# @ templatic
+#: admin/widgets/login.php:281
+msgid "Edit Profile"
+msgstr "Editar perfil"
+
+# @ templatic
+#: admin/widgets/login.php:282
+msgid "Change Password"
+msgstr "Alterar sua senha"
+
+# @ templatic
+#: admin/widgets/login.php:283
+msgid "Logout"
+msgstr "Sair"
+
+# @ templatic
+#: admin/widgets/login.php:313 admin/widgets/login.php:378
+msgid "Username"
+msgstr "Nome de usuário"
+
+# @ templatic
+#: admin/widgets/login.php:314
+msgid "Password"
+msgstr "Senha"
+
+# @ templatic
+#: admin/widgets/login.php:319
+msgid "Sign In"
+msgstr "Efetuar login"
+
+# @ templatic
+#: admin/widgets/login.php:322
+msgid "New User? Register Now"
+msgstr "Novo usuário? Registre agora"
+
+# @ templatic
+#: admin/widgets/login.php:323
+msgid "Forgot Password?"
+msgstr "Esqueceu sua senha?"
+
+# @ templatic
+#: admin/widgets/login.php:372
+msgid "New User Register Here"
+msgstr "Registro de novo usuário aqui"
+
+# @ templatic
+#: admin/widgets/login.php:390
+msgid "Register"
+msgstr "Registro"
+
+# @ templatic
+#: admin/widgets/login.php:420
+msgid "Forgot Password"
+msgstr "Esqueceu sua senha"
+
+# @ templatic
+#: admin/widgets/login.php:428
+msgid "Get New Password"
+msgstr "Obter nova senha"
+
+# @ templatic
+#: admin/widgets/my_bio.php:59
+msgid "Author Photo (ex.http://templatic.com/photo.png)"
+msgstr "Foto do autor (ex.:http://templatic.com/photo.png)"
+
+# @ templatic
+#: admin/widgets/my_bio.php:61
+msgid "Short Description"
+msgstr "Descrição simples"
+
+# @ templatic
+#: admin/widgets/my_bio.php:63 library/functions/custom_functions.php:829
+#: library/functions/custom_functions.php:881
+msgid "Description :  (html tag use ex.&lt;p&gt;text &lt;/p&gt;)"
+msgstr "Descrição :  (para tags html use ex.:&lt;p&gt;texto &lt;/p&gt;)"
+
+# @ templatic
+#: admin/widgets/my_bio.php:65
+msgid "Read More Text"
+msgstr "Texto de \"Leia Mais\""
+
+# @ templatic
+#: admin/widgets/my_bio.php:67
+msgid "Read More Link URL (ex.http://templatic.com/mybio)"
+msgstr "URL do link de \"Leia mais\" (ex.http://templatic.com/mybio)"
+
+# @ templatic
+#: admin/widgets/popularposts.php:59
+msgid "Number of Posts"
+msgstr "Número de posts"
+
+# @ templatic
+#: admin/widgets/social_media.php:74 admin/widgets/subscribe.php:48
+msgid "Widget Title:"
+msgstr "Título do Widget:"
+
+# @ templatic
+#: admin/widgets/social_media.php:75
+msgid "Twitter Full URL"
+msgstr "URL completa do Twitter"
+
+# @ templatic
+#: admin/widgets/social_media.php:76
+msgid "Facebook Full URL"
+msgstr "URL completa do Facebook"
+
+# @ templatic
+#: admin/widgets/social_media.php:77
+msgid "Digg Full URL"
+msgstr "URL completa do Digg"
+
+# @ templatic
+#: admin/widgets/social_media.php:78
+msgid "Linkedin Full URL"
+msgstr "URL completa do Linkedin"
+
+# @ templatic
+#: admin/widgets/social_media.php:79
+msgid "Myspace Full URL"
+msgstr "URL completa do Myspace"
+
+# @ templatic
+#: admin/widgets/social_media.php:80
+msgid "Rss Full URL"
+msgstr "URL completa do RSS"
+
+# @ templatic
+#: admin/widgets/subscribe.php:26
+msgid "Enter Email Address"
+msgstr "Insira o seu email"
+
+# @ templatic
+#: admin/widgets/subscribe.php:49
+msgid "Feedburner ID (ex :- templatic):"
+msgstr "ID do Feedburner (ex.:- templatic):"
+
+# @ templatic
+#: admin/widgets/subscribe.php:50
+msgid "Sort Description:"
+msgstr "Descrição curta:"
+
+# @ templatic
+#: admin/widgets/testimonials.php:143
+msgid "Show Fade In Time Set:"
+msgstr "Mostrar efeito Fade In no horário:"
+
+# @ templatic
+#: admin/widgets/testimonials.php:144
+msgid "Show Fade Out Time Set:"
+msgstr "Mostrar efeito Fade Out no horário:"
+
+# @ templatic
+#: admin/widgets/testimonials.php:146
+msgid "Quote text 1"
+msgstr "Texto de destaque 1"
+
+# @ templatic
+#: admin/widgets/testimonials.php:147
+msgid "Author name 1"
+msgstr "Nome de autor 1"
+
+# @ templatic
+#: admin/widgets/testimonials.php:149
+msgid "Quote text 2"
+msgstr "Texto de destaque 2"
+
+# @ templatic
+#: admin/widgets/testimonials.php:150
+msgid "Author name 2"
+msgstr "Nome de autor 2"
+
+# @ templatic
+#: admin/widgets/testimonials.php:152
+msgid "Quote text 3"
+msgstr "Texto de destaque 3"
+
+# @ templatic
+#: admin/widgets/testimonials.php:153
+msgid "Author name 3"
+msgstr "Nome de autor 3"
+
+# @ templatic
+#: admin/widgets/testimonials.php:155
+msgid "Quote text 4"
+msgstr "Texto de destaque 4"
+
+# @ templatic
+#: admin/widgets/testimonials.php:156
+msgid "Author name 4"
+msgstr "Nome de autor 4"
+
+# @ templatic
+#: admin/widgets/testimonials.php:158
+msgid "Quote text 5"
+msgstr "Texto de destaque 5"
+
+# @ templatic
+#: admin/widgets/testimonials.php:159
+msgid "Author name 5"
+msgstr "Nome de autor 5"
+
+# @ templatic
+#: admin/widgets/twitter.php:46
+msgid "Live Tweet"
+msgstr "Tweet em tempo real"
+
+# @ templatic
+#: admin/widgets/twitter.php:59
+msgid "Twitter Account ID"
+msgstr "ID da conta do Twitter"
+
+# @ templatic
+#: admin/widgets/twitter.php:64
+msgid "Show Twitter Posts"
+msgstr "Mostrar posts de Twitter"
+
+# @ templatic
+#: admin/widgets/twitter.php:69
+msgid "Twitter Button Text"
+msgstr "Texto do botão de twitter"
+
+# @ templatic
+#: archive.php:7
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+# @ templatic
+#: archive.php:9
+#, php-format
+msgid "Posts tagged &quot;%s&quot;"
+msgstr "Posts marcados &quot;%s&quot;"
+
+# @ templatic
+#: archive.php:11
+#, php-format
+msgid "Daily archive %s"
+msgstr "Arquivo diário %s"
+
+# @ templatic
+#: archive.php:11
+msgid "M j, Y"
+msgstr "d/m/Y"
+
+# @ templatic
+#: archive.php:13
+#, php-format
+msgid "Monthly archive %s"
+msgstr "Arquivo mensal %s"
+
+# @ templatic
+#: archive.php:15
+#, php-format
+msgid "Yearly archive %s"
+msgstr "Arquivo anual %s"
+
+# @ templatic
+#: archive.php:17
+msgid "Author Archive"
+msgstr "Arquivo do autor"
+
+# @ templatic
+#: archive.php:19
+msgid "Blog Archives"
+msgstr "Arquivos do blog"
+
+#: comments.php:4
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+"Este post é protegido por senha. Por favor insira a senha para ver quaisquer "
+"comentários."
+
+#: comments.php:14
+#, php-format
+msgid "1 comment"
+msgid_plural "%1$s comments"
+msgstr[0] "1 comentário"
+msgstr[1] "%1$s comentários"
+
+# @ templatic
+#: library/functions/custom_filters.php:201
+msgid "Theme Menu"
+msgstr "Template Site"
+
+#: library/functions/custom_filters.php:262
+msgid "Full Image (only for slider)"
+msgstr "Imagem completa (somente para o destaque)"
+
+# @ templatic
+#: library/functions/custom_filters.php:264
+msgid ""
+"Enter full image URL (image size: width - 978px x height - 400px) eg. : "
+"<strong>http://myplace.com/image.jpg</strong>"
+msgstr ""
+"Insira a URL completa da imagem (tamanho da imagem: largura - 978px x altura "
+"- 400px) ex. : <strong>http://myplace.com/image.jpg</strong>"
+
+#: library/functions/custom_filters.php:268
+msgid "Custom Video code (only for slider)"
+msgstr "Código de vídeo personalizado (somente para o destaque)"
+
+# @ templatic
+#: library/functions/custom_filters.php:270
+msgid ""
+"Enter embed code for video. (Ideal Size: width - 300px x height - 199px) "
+"eg. : code from youtube, vimeo, etc"
+msgstr ""
+"Insira o código embed para o vídeo. (Tamanho ideal: largura - 300px x altura "
+"- 199px) ex. : código do youtube, vimeo, etc"
+
+#: library/functions/custom_functions.php:337
+msgid "Headlines & News"
+msgstr "Manchetes e notícias"
+
+#: library/functions/custom_functions.php:338
+msgid "T &rarr; Tab - Headlines & News"
+msgstr "T &rarr; Tab - Manchetes e notícias"
+
+# @ templatic
+#: library/functions/custom_functions.php:373
+#: library/functions/custom_functions.php:397
+msgid "Posted on"
+msgstr "Criado em"
+
+# @ templatic
+#: library/functions/custom_functions.php:376
+msgid "1 Comment "
+msgstr "1 comentário "
+
+# @ templatic
+#: library/functions/custom_functions.php:376
+msgid "% Comments "
+msgstr "% comentários "
+
+# @ templatic
+#: library/functions/custom_functions.php:376
+msgid "Comments Closed "
+msgstr "Comentários desativados"
+
+#: library/functions/custom_functions.php:442
+#: library/functions/custom_functions.php:672
+msgid "Title 1:"
+msgstr "Título 1:"
+
+#: library/functions/custom_functions.php:445
+msgid "Headlines Number of posts:"
+msgstr "Número de posts das manchetes:"
+
+#: library/functions/custom_functions.php:450
+#: library/functions/custom_functions.php:462
+msgid "Headlines Categories (<code>IDs</code> separated by commas):"
+msgstr "Categorias das manchetes (<code>IDs</code> separados por vírgulas):"
+
+#: library/functions/custom_functions.php:454
+#: library/functions/custom_functions.php:683
+msgid "Title 2:"
+msgstr "Título 2:"
+
+#: library/functions/custom_functions.php:457
+msgid "News number of posts:"
+msgstr "Número de posts das notícias"
+
+#: library/functions/custom_functions.php:499
+msgid "Per Page :"
+msgstr "Por página:"
+
+#: library/functions/custom_functions.php:535
+msgid "Services Listing"
+msgstr "Listagem de serviços"
+
+#: library/functions/custom_functions.php:536
+msgid "T &rarr; Services list"
+msgstr "T &rarr; Lista de serviços"
+
+#: library/functions/custom_functions.php:675
+msgid "Image 1:"
+msgstr "Imagem 1:"
+
+# @ templatic
+#: library/functions/custom_functions.php:676
+msgid "Description 1:  (html tag use ex.&lt;p&gt;text &lt;/p&gt;)"
+msgstr "Descrição 1:  (para tags html use ex.:&lt;p&gt;texto &lt;/p&gt;)"
+
+#: library/functions/custom_functions.php:678
+msgid "Link 1:"
+msgstr "Link 1:"
+
+#: library/functions/custom_functions.php:679
+msgid "Read More text 1:"
+msgstr "Texto \"Leia mais\" 1:"
+
+#: library/functions/custom_functions.php:685
+msgid "Image 2:"
+msgstr "Imagem 2:"
+
+# @ templatic
+#: library/functions/custom_functions.php:686
+msgid "Description 2:  (html tag use ex.&lt;p&gt;text &lt;/p&gt;)"
+msgstr "Descrição 2:  (para tags html use ex.:&lt;p&gt;texto &lt;/p&gt;)"
+
+#: library/functions/custom_functions.php:688
+msgid "Link 2:"
+msgstr "Link 2:"
+
+#: library/functions/custom_functions.php:689
+msgid "Read More text 2:"
+msgstr "Texto \"Leia Mais\" 2:"
+
+#: library/functions/custom_functions.php:693
+msgid "Title 3:"
+msgstr "Título 3:"
+
+#: library/functions/custom_functions.php:695
+msgid "Image 3:"
+msgstr "Imagem 3:"
+
+# @ templatic
+#: library/functions/custom_functions.php:696
+msgid "Description 3:  (html tag use ex.&lt;p&gt;text &lt;/p&gt;)"
+msgstr "Descrição 3:  (para tags html use ex.:&lt;p&gt;texto &lt;/p&gt;)"
+
+#: library/functions/custom_functions.php:698
+msgid "Link 3:"
+msgstr "Link 3:"
+
+#: library/functions/custom_functions.php:699
+msgid "Read More text 3:"
+msgstr "Texto \"Leia Mais\" 3:"
+
+#: library/functions/custom_functions.php:702
+msgid "Title 4:"
+msgstr "Título 4:"
+
+#: library/functions/custom_functions.php:704
+msgid "Image 4:"
+msgstr "Imagem 4:"
+
+# @ templatic
+#: library/functions/custom_functions.php:705
+msgid "Description 4:  (html tag use ex.&lt;p&gt;text &lt;/p&gt;)"
+msgstr "Descrição 4:  (para tags html use ex.:&lt;p&gt;texto &lt;/p&gt;)"
+
+#: library/functions/custom_functions.php:707
+msgid "Link 4:"
+msgstr "Link 4:"
+
+#: library/functions/custom_functions.php:708
+msgid "Read More text 4:"
+msgstr "Texto \"Leia Mais\" 4:"
+
+#: library/functions/custom_functions.php:720
+msgid "Team Listing"
+msgstr "Listagem de equipe"
+
+#: library/functions/custom_functions.php:721
+msgid "T &rarr; Team list"
+msgstr "T &rarr; Lista da equipe"
+
+#: library/functions/custom_functions.php:818
+msgid "Name1:"
+msgstr "Nome 1:"
+
+#: library/functions/custom_functions.php:819
+msgid "Image1:"
+msgstr "Imagem 1:"
+
+#: library/functions/custom_functions.php:820
+msgid "Qualification1:"
+msgstr "Qualificação 1:"
+
+# @ templatic
+#: library/functions/custom_functions.php:821
+msgid "Description1 :  (html tag use ex.&lt;p&gt;text &lt;/p&gt;)"
+msgstr "Descrição 1:  (para tags html use ex.:&lt;p&gt;texto &lt;/p&gt;)"
+
+#: library/functions/custom_functions.php:822
+msgid "Link1:"
+msgstr "Link 1:"
+
+#: library/functions/custom_functions.php:824
+msgid "Read More Text 1:"
+msgstr "Texto \"Leia Mais\" 1:"
+
+#: library/functions/custom_functions.php:826
+msgid "Name2:"
+msgstr "Nome 2:"
+
+#: library/functions/custom_functions.php:827
+msgid "Image2:"
+msgstr "Imagem 2:"
+
+#: library/functions/custom_functions.php:828
+msgid "Qualification2:"
+msgstr "Qualificação 2:"
+
+#: library/functions/custom_functions.php:830
+msgid "Link2:"
+msgstr "Link 2:"
+
+#: library/functions/custom_functions.php:831
+msgid "Read More Text 2:"
+msgstr "Texto \"Leia Mais\" 2:"
+
+#: library/functions/custom_functions.php:844
+msgid "Practice Listing"
+msgstr "Listagem de práticas"
+
+#: library/functions/custom_functions.php:845
+msgid "T &rarr; Practice list"
+msgstr "T &rarr; Lista de práticas"
+
+# @ templatic
+#: library/tpl/404_content.php:7
+msgid ""
+"The page you've requested can not be displayed. It appears you've missed "
+"your intended destination, either through a bad or outdated link, or a typo "
+"in the page you were hoping to reach."
+msgstr ""
+"A página que você solicitou não pode ser exibida. Parece que você se perdeu "
+"da página que desejava visitar, através de um link quebrado ou não "
+"atualizado, ou algum erro de digitação no nome da página que gostaria de "
+"visitar."
+
+# @ templatic
+#: library/tpl/search_content.php:9 search.php:6
+msgid "Search Result for "
+msgstr "Resultados de busca para"
+
+#: library/tpl/single_content.php:29
+msgid "Views"
+msgstr "Visualizações"
+
+# @ templatic
+#: library/tpl/tpl_advanced_search_page.php:13
+msgid "Search this website"
+msgstr "Buscar neste site"
+
+# @ templatic
+#: library/tpl/tpl_advanced_search_page.php:19
+msgid "Please enter word you want to search"
+msgstr "Por favor digite a palavra que você deseja buscar"
+
+# @ templatic
+#: library/tpl/tpl_advanced_search_page.php:36
+msgid "Date"
+msgstr "Data"
+
+# @ templatic
+#: library/tpl/tpl_advanced_search_page.php:39
+msgid "<span>to</span>"
+msgstr "<span>para</span>"
+
+# @ templatic
+#: library/tpl/tpl_advanced_search_page.php:45
+msgid "Author"
+msgstr "Autor"
+
+# @ templatic
+#: library/tpl/tpl_advanced_search_page.php:48
+msgid "Exact author"
+msgstr "Autor exato"
+
+# @ templatic
+#: library/tpl/tpl_sitemap_page.php:13
+msgid "Pages"
+msgstr "Páginas"
+
+# @ templatic
+#: library/tpl/tpl_sitemap_page.php:20
+msgid "Posts"
+msgstr "Posts"
+
+# @ templatic
+#: library/tpl/tpl_sitemap_page.php:34
+msgid "Archives"
+msgstr "Arquivos"
+
+# @ templatic
+#: library/tpl/tpl_sitemap_page.php:41
+msgid "Categories"
+msgstr "Categorias"
+
+# @ templatic
+#: library/tpl/tpl_sitemap_page.php:48
+msgid "Meta"
+msgstr "Meta"
+
+# @ templatic
+#: library/tpl/tpl_sitemap_page.php:60
+msgid "<strong>Tags: </strong>"
+msgstr "<strong>Tags: </strong>"
+
+#: pagination.php:3
+msgid "Previous Page"
+msgstr "Página anterior"
+
+#: pagination.php:4
+msgid "Next Page"
+msgstr "Próxima página"
+
+#: pagination.php:8
+msgid "LOAD MORE"
+msgstr "CARREGAR MAIS"
