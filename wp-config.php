@@ -51,14 +51,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         '>mw^v*|F_$^_Ryd+[,YVn7tCu/-]p.N^q&51e>@U [lYQJ54J3OMHR{*u86UhLw-');
-define('SECURE_AUTH_KEY',  'p4zgh/uOi|yP/!WW`b,*<g0%Z2xH28E)~S>nw{} f>,BQZ[$<|%B/FkK<v>=>3ZQ');
-define('LOGGED_IN_KEY',    'k<)l6(]L9N#9kV/h+j[:fwEsokU&2jBL{NG7EAe^{3#:cZQ_`x-cvrb@VrsBZAml');
-define('NONCE_KEY',        '.2ez6)H3lc3n`pXe+s! zZB)c2eli<ne|3YIHA5Gs.D5/W=zQ.3)#C@#XBBPT:Se');
-define('AUTH_SALT',        '4xa[zrziRT0z/OdQ5kX1>VmC*z>GK)S]5(4b`c<h+R|?!)n7I8N)Q2-^Gfwx.a%3');
-define('SECURE_AUTH_SALT', '7C[uGJd2e0([g^!s.0q~rEjVL&cZ#c]DzFGa5B6FPP8WI/],dB}L}A*y5bM;%[Ch');
-define('LOGGED_IN_SALT',   'vw2Xur;m,Gn|bH@K%nLZ{a=Rog-{0u`_ceME$m0YE0 ri|:$5)ny:)GUX=JU0X`o');
-define('NONCE_SALT',       '@+](MrO%zrdx-dofXEKgUD6gA.k=fw+i(:C2/c(H!e``A:6DT{X~D15}UMmL9Gb;');
+define('AUTH_KEY',         'S;zt+Ep[4OWZ^7!&1W9.b|XVyq_aW)CP?zD0J|vD4N9JmU8X{%.xBly{O.u{[-)P');
+define('SECURE_AUTH_KEY',  '>Yj$E{naprC[@&?qCHScjn/&9x=B:l.>kxUQ0p:LJo2:NIaD|<#}F+z`g6ag!j@h');
+define('LOGGED_IN_KEY',    'mBO=YG -_Qf>3T5Vb_L,7.hO)w$gR:gR5+UZO1N@8j{$6GvyTUQa)2?a*X$zQk{%');
+define('NONCE_KEY',        '`y^<UPR!A:^!B7_B)&CK`H>sb-7)n[@58n^JqKIEuX>c3^t/*i$,c1+t/:hS^n}s');
+define('AUTH_SALT',        'E5#~SA776&%d3a^[kgi j~SAw}iJx%Ojf{(AN&1L/QWiM;3T,=W8BoEtq`KNOxH{');
+define('SECURE_AUTH_SALT', '+,`n*/7(77g13/qseb@$_9bg/s>+KF2UU;fw0N0my{tm#| RBDOee@}BW<b5vfiO');
+define('LOGGED_IN_SALT',   'b?+U6]lK3x5i`,_m{817+i3V3YE)=0W,dx%To?H`,N3AYr,.9/A5c~trJ?|2O,jj');
+define('NONCE_SALT',       '~{IKOZTSGOrAA^Qj|@U->4GNm`^2&qnxtGa.-zet[r}xc}pyLAP*0G&+8XhL>jp)');
 
 /**#@-*/
 
@@ -68,7 +68,7 @@ define('NONCE_SALT',       '@+](MrO%zrdx-dofXEKgUD6gA.k=fw+i(:C2/c(H!e``A:6DT{X~
  * Você pode ter várias instalações em um único banco de dados se você der
  * um prefixo único para cada um. Somente números, letras e sublinhados!
  */
-$table_prefix  = 'wp5';
+$table_prefix  = 'wp5__';
 
 /**
  * Para desenvolvedores: Modo de debug do WordPress.
