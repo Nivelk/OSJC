@@ -23,7 +23,7 @@ if($slider_setting['home_banner_enabled'] == 0 ) {
 			<div class="container slide-caption">
 				<div class="slide-text-bg1"><h2><?php _e('Powerful Bootstrap Theme','appointment'); ?></h2></div>
 				<div class="slide-text-bg2"><span><?php _e('This is a very powerful theme that can be used for any type of business. The layout is clean and elegant.','appointment'); ?></span></div>	
-				<div class="slide-btn-area-sm"><a href="#" class="slide-btn-sm"><?php _e('Read More','appointment'); ?></a></div>		
+				<div class="slide-btn-area-sm"><a href="http://www.osjc.org.br/premio-selo-participacao-legislativa/" class="slide-btn-sm"><?php _e('Read More','appointment'); ?></a></div>		
 			</div>
 		</div>  
 		<div class="item">
@@ -31,7 +31,7 @@ if($slider_setting['home_banner_enabled'] == 0 ) {
 			<div class="container slide-caption">
 				<div class="slide-text-bg1"><h2><?php _e('Powerful Bootstrap Theme','appointment'); ?></h2></div>
 				<div class="slide-text-bg2"><span><?php _e('This is a very powerful theme that can be used for any type of business. The layout is clean and elegant.','appointment'); ?></span></div>	
-				<div class="slide-btn-area-sm"><a href="#" class="slide-btn-sm"><?php _e('Read More','appointment'); ?></a></div>		
+				<div class="slide-btn-area-sm"><a href="http://www.osjc.org.br/arraia-da-osjc/" class="slide-btn-sm"><?php _e('Read More','appointment'); ?></a></div>		
 			</div>
 		</div>
 		<div class="item">
@@ -39,7 +39,7 @@ if($slider_setting['home_banner_enabled'] == 0 ) {
 			<div class="container slide-caption">
 				<div class="slide-text-bg1"><h2><?php _e('Powerful Bootstrap Theme','appointment'); ?></h2></div>
 				<div class="slide-text-bg2"><span><?php _e('This is a very powerful theme that can be used for any type of business. The layout is clean and elegant.','appointment'); ?></span></div>	
-				<div class="slide-btn-area-sm"><a href="#" class="slide-btn-sm"><?php _e('Read More','appointment'); ?></a></div>		
+				<div class="slide-btn-area-sm"><a href="http://www.osjc.org.br/aleluia-jesus-cristo-ressuscitou/" class="slide-btn-sm"><?php _e('Read More','appointment'); ?></a></div>		
 			</div>	
 		</div>
         <div class="item">
@@ -47,7 +47,7 @@ if($slider_setting['home_banner_enabled'] == 0 ) {
 			<div class="container slide-caption">
 				<div class="slide-text-bg1"><h2><?php _e('Powerful Bootstrap Theme','appointment'); ?></h2></div>
 				<div class="slide-text-bg2"><span><?php _e('This is a very powerful theme that can be used for any type of business. The layout is clean and elegant.','appointment'); ?></span></div>	
-				<div class="slide-btn-area-sm"><a href="#" class="slide-btn-sm"><?php _e('Read More','appointment'); ?></a></div>		
+				<div class="slide-btn-area-sm"><a href="http://www.osjc.org.br/cursos-de-2017-inscricoes-abertas/" class="slide-btn-sm"><?php _e('Read More','appointment'); ?></a></div>		
 			</div>	
 		</div>
 		</div>  
