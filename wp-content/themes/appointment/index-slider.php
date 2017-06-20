@@ -21,33 +21,33 @@ if($slider_setting['home_banner_enabled'] == 0 ) {
 		<div class="item active">
 		   <img src="<?php echo WEBRITI_TEMPLATE_DIR_URI; ?>/images/slide/slide1.jpg">
 			<div class="container slide-caption">
-				<div class="slide-text-bg1"><h2><?php _e('Powerful Bootstrap Theme','appointment'); ?></h2></div>
-				<div class="slide-text-bg2"><span><?php _e('This is a very powerful theme that can be used for any type of business. The layout is clean and elegant.','appointment'); ?></span></div>	
-				<div class="slide-btn-area-sm"><a href="http://www.osjc.org.br/premio-selo-participacao-legislativa/" class="slide-btn-sm"><?php _e('Read More','appointment'); ?></a></div>		
+				<div class="slide-text-bg1"><h2><?php _e('Prêmio “Selo Participação Legislativa”','appointment'); ?></h2></div>
+				<div class="slide-text-bg2"><span><?php _e('A Entidade Obras Sociais do Jardim Clímax foi contemplada com o prêmio “Selo Participação Legislativa”. (mais…)','appointment'); ?></span></div>	
+				<div class="slide-btn-area-sm"><a href="http://www.osjc.org.br/premio-selo-participacao-legislativa/" class="slide-btn-sm"><?php _e('Leia Mais','appointment'); ?></a></div>		
 			</div>
 		</div>  
 		<div class="item">
 		   <img src="<?php echo WEBRITI_TEMPLATE_DIR_URI; ?>/images/slide/slide2.jpg">
 			<div class="container slide-caption">
-				<div class="slide-text-bg1"><h2><?php _e('Powerful Bootstrap Theme','appointment'); ?></h2></div>
-				<div class="slide-text-bg2"><span><?php _e('This is a very powerful theme that can be used for any type of business. The layout is clean and elegant.','appointment'); ?></span></div>	
-				<div class="slide-btn-area-sm"><a href="http://www.osjc.org.br/arraia-da-osjc/" class="slide-btn-sm"><?php _e('Read More','appointment'); ?></a></div>		
+				<div class="slide-text-bg1"><h2><?php _e('Arraiá da OSJC','appointment'); ?></h2></div>
+				<div class="slide-text-bg2"><span><?php _e('Arraiá da OSJC (mais…)'); ?></span></div>	
+				<div class="slide-btn-area-sm"><a href="http://www.osjc.org.br/arraia-da-osjc/" class="slide-btn-sm"><?php _e('Leia Mais','appointment'); ?></a></div>		
 			</div>
 		</div>
 		<div class="item">
 		  <img src="<?php echo WEBRITI_TEMPLATE_DIR_URI; ?>/images/slide/slide3.jpg">
 			<div class="container slide-caption">
-				<div class="slide-text-bg1"><h2><?php _e('Powerful Bootstrap Theme','appointment'); ?></h2></div>
-				<div class="slide-text-bg2"><span><?php _e('This is a very powerful theme that can be used for any type of business. The layout is clean and elegant.','appointment'); ?></span></div>	
-				<div class="slide-btn-area-sm"><a href="http://www.osjc.org.br/aleluia-jesus-cristo-ressuscitou/" class="slide-btn-sm"><?php _e('Read More','appointment'); ?></a></div>		
+				<div class="slide-text-bg1"><h2><?php _e('Aleluia, Jesus Cristo ressuscitou!','appointment'); ?></h2></div>
+				<div class="slide-text-bg2"><span><?php _e('OSJC, agradece a todos os doadores por fazerem uma Páscoa mais doce para nossas crianças e adolescentes. (mais…)'); ?></span></div>	
+				<div class="slide-btn-area-sm"><a href="http://www.osjc.org.br/aleluia-jesus-cristo-ressuscitou/" class="slide-btn-sm"><?php _e('Leia Mais','appointment'); ?></a></div>		
 			</div>	
 		</div>
         <div class="item">
 		  <img src="<?php echo WEBRITI_TEMPLATE_DIR_URI; ?>/images/slide/slide4.jpg">
 			<div class="container slide-caption">
-				<div class="slide-text-bg1"><h2><?php _e('Powerful Bootstrap Theme','appointment'); ?></h2></div>
-				<div class="slide-text-bg2"><span><?php _e('This is a very powerful theme that can be used for any type of business. The layout is clean and elegant.','appointment'); ?></span></div>	
-				<div class="slide-btn-area-sm"><a href="http://www.osjc.org.br/cursos-de-2017-inscricoes-abertas/" class="slide-btn-sm"><?php _e('Read More','appointment'); ?></a></div>		
+				<div class="slide-text-bg1"><h2><?php _e('Cursos de 2017 – inscrições abertas.','appointment'); ?></h2></div>
+				<div class="slide-text-bg2"><span><?php _e('A Entidade Obras Sociais do Jardim Clímax está com as matrículas abertas para os cursos de pré-qualificação profissional para o ano de 201. (mais…)','appointment'); ?></span></div>	
+				<div class="slide-btn-area-sm"><a href="http://www.osjc.org.br/cursos-de-2017-inscricoes-abertas/" class="slide-btn-sm"><?php _e('Leia Mais','appointment'); ?></a></div>		
 			</div>	
 		</div>
 		</div>  
