@@ -9,5 +9,7 @@
         <?php wp_head(); ?>
     </head>
     <body <?php body_class(); ?>>
-    
+        <header class="">
+            <img src="<?php echo WEBRITI_TEMPLATE_DIR_URI; ?>/images/logotipo.png">
+        </header>
     </body>
