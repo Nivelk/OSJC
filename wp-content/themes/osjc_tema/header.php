@@ -10,6 +10,6 @@
     </head>
     <body>
         <header class="">
-            <img src="<?php echo WEBRITI_TEMPLATE_DIR_URI; ?>/images/logotipo.png">
+            <img src="<?php echo get_template_directory_uri() . '/images/logotipo.png';?>"/>
         </header>
     </body>
