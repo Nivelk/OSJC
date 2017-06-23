@@ -1,0 +1,14 @@
+{
+    "name": "aslan-pc1/appointment",
+    "authors": [
+        {
+            "name": "42143",
+            "email": "aslan-k@hotmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Osjc\\":"_class/"
+        }
+    }
+}
