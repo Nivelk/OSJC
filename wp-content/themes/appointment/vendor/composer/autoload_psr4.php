@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Osjc\\' => array($baseDir . '/_class'),
+    'Osjc\\' => array($baseDir . '/src'),
 );

@@ -16,7 +16,7 @@ class ComposerStaticInitffd339f746e102a3a32026a8de9c697b
     public static $prefixDirsPsr4 = array (
         'Osjc\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/_class',
+            0 => __DIR__ . '/../..' . '/src',
         ),
     );
 
